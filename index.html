@@ -10,6 +10,9 @@
 
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!--importation : Manrope + Montserrat(google fonts)-->
+
+            <script src="files.js" defer></script>
+            
         </head>
         
         <body>
@@ -18,19 +21,20 @@
                         <a href="index.html">
                             <img src="images/logo.png" alt="logo_robbie_lens">
                         </a>
-                    <div class="liens-navigation">
-                        <a href="index.html">Accueil</a>
-                        <a href="Portfolio.html">Portfolio</a>
-                        <a href="A propos - Robbie Lens Photographie.html">À propos</a>
+
+                    <span>
+                        <a href="index.html">Accueil&emsp;</a>
+                        <a href="Portfolio.html">Portfolio&emsp;</a>
+                        <a href="A propos - Robbie Lens Photographie.html">À propos&emsp;</a>
                                <!--Mise en pratique :l'ancre est plus bas que le lien d'ancrage-->
-                    </div>
+                    </span>
                 </nav>
             </header>   
 
             <main>
-                <section class="conteneur-intro-robbie">
+                <section class="introRobbie">
 
-                   <div class="titre-txt-intro">
+                   <div>
                         <h1>Robbie Lens
                         <br>Photographie</h1>
                     
@@ -43,7 +47,7 @@
                                 Capturer l’essence de chaque instant.
                             </p>    
 
-                            <a href="#ancre-projet"class="bouton">UN PROJET ?  ÉCRIVEZ-MOI ✍️​</a>
+                            <a href="#ancre-projet"class="btn">UN PROJET ?  ÉCRIVEZ-MOI ✍️​</a>
 
                         </div>
 
@@ -98,33 +102,31 @@
                     <br><br><h4><a href="Portfolio.html"target="_blank"class="bouton2">Voir portfolio</a></h4>
 
                 </section>
-                <section>
-                    
-                </section>
-                <section class="carte-de-visite">
+                
+                <section class="formContact">
                     <h2 id="ancre-projet">Parlons de votre projet</h2>
 
                     <form action="" method="get">
                         <div class="coordonees">
 
-                            <div class="nom-user">
-                                <label for="nom" class="adrien">Votre nom </label>
-                                    <input type="text" name="nom" id="nom" placeholder="Ex : Yakité" size="60">
+                            <div>
+                                <label for="nom">Votre nom </label>
+                                    <input type="text" name="nom" id="nom" placeholder="Ex : Yakité" size="38" >
                             </div>
 
-                            <div class="email-user">
+                            <div>
                                 <label for="adressemail">Votre email </label>
-                                    <input type="email" name="adressemail" id="adressemail"placeholder="Ex : adrien.yakite@gmail.com" size="60">
+                                    <input type="email" name="adressemail" id="adressemail"placeholder="Ex : adrien.yakite@gmail.com" size="38">
                             </div>  
 
                         </div>
 
-                        <div class="Message">
-                                <label for="resumeprojet">Message</label>
-                                    <textarea name="resumeprojet" id="resumeprojet"placeholder="Ex : Bonjour Robbie, voici un projet dont j'aimerai vous parler..." required></textarea>
+                        <div>
+                                <label for="resumeprojet">Votre message</label>
+                                    <textarea name="resumeprojet" id="resumeprojet" placeholder="Ex : Bonjour Robbie, voici un projet dont j'aimerai vous parler..." required rows="10"></textarea>
                         </div>
 
-                        <input type="submit" value="Envoyer" class="bouton2">
+                        <input type="submit" value="Envoyer" class="btn" id="btnEnvoi">
 
 
                     </form>
@@ -135,7 +137,7 @@
             </main>
 
             <footer>
-                    <a href="Accueil - Robbie Lens Photographie.html">
+                    <a href="index.html">
                         <img src="images/logo.png"alt="logo_robbie_lens">
                     </a>
                     <span class="logos-reseaux">
