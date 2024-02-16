@@ -1,4 +1,4 @@
-git commit -m "first commit"<!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="fr">
 
         <head>
@@ -15,6 +15,8 @@ git commit -m "first commit"<!DOCTYPE html>
 
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+            <script src="files.js" defer></script>
+
 
         </head>
 
@@ -23,13 +25,13 @@ git commit -m "first commit"<!DOCTYPE html>
 
             <header>
                 <nav class="conteneur-lien-nav">
-                        <a href="Accueil - Robbie Lens Photographie.html" class="logo_robbie_lens">
+                        <a href="index.html" class="logo_robbie_lens">
                             <img src="images/logo.png"alt="logo_robbie_lens">
                         </a>
                     <div>
-                        &emsp;&emsp;<a href="Accueil - Robbie Lens Photographie.html">Accueil</a>
-                        &emsp;<a href="Portfolio.html">Portfolio</a>
-                        &emsp;<a href="A propos - Robbie Lens Photographie.html">À propos</a>
+                      <a href="index.html">Accueil&emsp;</a>
+                      <a href="Portfolio.html">Portfolio&emsp;</a>
+                      <a href="A propos - Robbie Lens Photographie.html">À propos&emsp;</a>
 
 
                         <!--Mise en pratique :l'ancre est plus bas que le lien d'ancrage-->
@@ -38,32 +40,33 @@ git commit -m "first commit"<!DOCTYPE html>
             </header>     
             
             <main>
-
-                <section>
+                
+                <h1>À propos</h1><!--MEP : text-align-->
+                <section class="introAPropos">
                         
-                            <h1>À propos</h1><br><br><!--MEP : text-align-->
-                        <div class="intro-apropos">
                             <p> Photographe depuis plus de <em>5 ans</em>,
                             je réalise des reportages aux photos dynamiques et pertinentes pour vos projets de communication. 
                             <br><em>Créativité</em>, <em>qualité</em>, et <em>sérénité pour vous</em> !
                             Je gère tout, depuis la direction artistique, la réalisation du reportage,
-                            jusqu’à la livraison de vos photos retouchées, prêtes à l’emploi.</p>
-                            <h2><br>Services</h2><BR>
-                            <ul>
-                                <li>Portrait seul ou à plusieurs</li>
-                                <li>Shooting mode</li>
-                                <li>Retouches sur mesure</li>
-                                <li>Développement</li> 
-                            </ul>
-                        </div>
+                            jusqu’à la livraison de vos photos retouchées, prêtes à l’emploi.</p>                       
                        <!--MEP: font-weight et <span>-->
-                        
+
                 </section>
 
-                <section>
+                <section class="services">
+                    <h2><br>Services</h2><BR>
+                        <ul>
+                            <li>Portrait seul ou à plusieurs</li>
+                            <li>Shooting mode</li>
+                            <li>Retouches sur mesure</li>
+                            <li>Développement</li> 
+                        </ul>
+                </section>
+
+                <section class="tarifs">
 
                     <table>
-                            <caption><h1 id="ancre-tarifs">Tarifs</h1></caption>
+                            <caption><h2 id="ancre-tarifs">Tarifs</h2></caption>
                             <tr>
                                 <th>Désignation</th>
                                 <th>Quantité</th>
@@ -87,14 +90,14 @@ git commit -m "first commit"<!DOCTYPE html>
                 </section>
 
                 <section class="carte-de-visite">
-                    <h2>Ma carte de visite à télécharger:</h2>
-                    
-                    <div class="txt-carte-de-visite">
+                    <h2>Ma carte de visite à télécharger</h2>
+                    <br>
+                    <div>
                     <!--Mise en pratique :l'ancre est plus bas que le lien d'ancrage-->
                         <a href="Robbie Lens.png"target="_blank" class="lien-carte">
-                            <img src="Robbie Lens.png"alt="carte de visite de Robbie Lens"class="carte">
-                            <div class="cliquez-pour-telecharger">Cliquez pour télécharger</div>
-                        </a>                        
+                            <img src="Robbie Lens.png"alt="carte de visite de Robbie Lens">
+                        </a>   
+                     
                     </div>
 
             </section>
@@ -104,9 +107,10 @@ git commit -m "first commit"<!DOCTYPE html>
                    
             <footer>
                 
-                    <a href="Accueil - Robbie Lens Photographie.html">
+                    <a href="index.html">
                         <img src="images/logo.png"alt="logo_robbie_lens">
                     </a>
+
                     <span class="logos-reseaux">
                         <a href="https://twitter.com/RedSmash0"target="_blank">
                             <img src="images/icons8-twitter-48.png"alt="logo twitter"title="@Robbie_Lens">

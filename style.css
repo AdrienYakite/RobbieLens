@@ -1,526 +1,189 @@
 
-/*GROUPE D'ELEMENTS*/
+/*////////////////////////////////////////////////////////////////*/
 
- /*////////////////////////BODY//////////////////////////*/
+                            /*BALISES*/
 
-body {
-    font-family: 'Manrope', sans-serif;
-    font-size: 1em;
-    background-color: #1f2039;
-    color:white;
-  }
-
- /*////////////////////////TITRE ET SOUS-TITRES//////////////////////////*/
-
-h1{
-    font-family:'Montserrat', sans-serif;
-    color:#A5B4FC;
-    font-size: 3.5em;
-    font-style: normal;   
-    /*text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);*/
-}
-
-
-h2{
-    text-align: left;
-    font-family: 'Manrope', sans-serif;
+/*////////////////////////////////////////////////////////////////*/
+body{
+    background-color: #1F2039;
     color: white;
-
+    margin: auto;
 }
 
- /*////////////////////////ELEMENTS IMPORTANTS//////////////////////////*/
 
-em{
-    color:#A5B4FC;
-    font-style: normal;
-    font-weight: 500;
+nav,footer{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
 }
-
- /*////////////////////////PARAGRAPHES//////////////////////////*/
-
-p{
-    font-size: 1.1em;
-}
-
- /*////////////////////////LISTES//////////////////////////*/
-
-ul,ol{
-    font-size: 1.1em;
-    color: white;
-    text-align: left;
-
-}
-
- /*////////////////////////LIENS//////////////////////////*/
-
-a:hover {
-    opacity: 0.75;
-    text-decoration: none;
-}
-
-a[class=bouton]:hover{
-    text-decoration: none;
-}
-
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 
-a:focus{
- background-color: none;
+a:hover{
+    opacity: 0.6;
+}
 
+a:visited{
+    text-decoration: none;
 }
 
 
-a[class="cta"]:hover{
-    color: linear-gradient(#696484,#8788BA);
-}
-/*/////////////////////////////////////////////////////////////////*/
-*{
-    margin:0;
-}
- /*////////////////////////TABLEAUX//////////////////////////*/
 
- td, th{
-    border: 2px #8e86b5 solid;
-    font-size: 1.3em;
-    padding: 50px;
- }
-
-caption{
-    padding: 75px;
-    }
-
-table{
-    border-collapse:collapse;
-    margin:auto;
+header a{
+    color:#242424;
+    text-decoration: none;
+    font-size: 1.2em;
 }
-/*/////////////////////////FORMULAIRES//////////////////////////////////////*/
+
+h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+p{
+    font-size: 1.1em;
+    text-align: justify
+}
 
 form{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap:30px;
-    padding: 50px;
-    border: none;
+    align-items: center ;
+    gap: 50px;
+
+    padding: 100px;
 }
 
-
-input{
-    border-radius:5px;
-    border: none;
-}
-
-textarea{
-    display:flex;
-    width:99.5%;
-    padding-bottom: 100px;
-    flex-direction: column;
-    border-radius:5px;
-    border: none;
-
-}
-
-
-.coordonees{
-    display:flex;
-    flex-direction: row;
-    gap:20px;
-    border: none;
-    
-}
-
-
-.nom-user{
-    display:flex;
-    flex-direction: column;
-    width:50%;
-}
-
-.nom-user input{
-    padding: 15px;
-}
-
-
-
-.email-user{
-    display:flex;
-    flex-direction: column;
-    width:50%;
-}
-
-section[class="carte-de-visite"] h2{
-    color:#A5B4FC;
-}
-
-section[class="carte-de-visite"]{
+td,th,tr{
+    border: 1px solid #8e86b5;
     padding: 50px;
 }
 
-
-section[class="carte-de-visite"] input[class="bouton2"] {
-    border: white;
-    width:10%; 
-    display: block;
-    position: relative;
-    left: 500px;
-
+table{
+    border-collapse: collapse;
+    margin: auto;
 }
 
 
 
-section[class="carte-de-visite"] input[class="bouton2"]:hover{
-    box-shadow : 4px 4px 2px rgba(0, 0, 0, 0.6);
-    opacity: 0.7;
-}
 
-.email-user input{
-    padding: 15px;
-}
-/*/////////////////////////////////////////////////////////////////*/
-header{
-    background-color: white;
-    text-align: left;
-    width:auto;
-    height:auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left : 50px;
-    padding-right : 50px;
-}
+/*////////////////////////////////////////////////////////////////*/
 
-header a{
-    color: #242424;
-    text-decoration: none;
-}
+                            /*CLASSES ET ID*/
 
+/*////////////////////////////////////////////////////////////////*/
 
-/*/////////////////////////////////////////////////////////////////*/
-nav a:hover{
-    
-        text-decoration: none;
-        opacity: 0.75;
-    }
-
-nav a:visited{
-    
-    text-decoration: none;
-    color: #242424 ;
-}
-
-nav{
-    font-size: 1.1em;
-}
-/*/////////////////////////////////////////////////////////////////*/
-section:first-child{
-    text-align: center;
-    color: white;
-    background: cover;
-    background: #1F2039;
-}  
-
-section{
-    padding:80px;
-}
-
-section h4{
-    text-align: center;
-    color: white;
-}
-
-
-section h2{
-    text-align: center;
-    margin-top: 50px;
-    color :  #1F2039;
-    
-}
-
-section[class="Portfolio"] p{
-    font-style: italic;
-}
-/*/////////////////////////////////////////////////////////////////*/
-footer{
-    color: white;
-    background: white;
-    font-size: 1.1em; 
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left : 50px;
-    padding-right : 50px;
-}
-
-footer h3{
-    text-align: center;
-}
-
-/*/////////////////////////////////////////////////////////////////*/
-
-
-
-/*CLASSES////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-.bouton{
-    background: linear-gradient(#8E86B5,#ACAEED);
-    font-family: 'Manrope', sans-serif;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 50px;
-}
-
-a[class="bouton"]:hover{
-    box-shadow : 6px 6px 0px rgba(0, 0, 0, 0.85);
-}
-
-/*/////////////////////////////////////////////////////////////////*/
-.bouton2{
-    background: linear-gradient(#8E86B5,#ACAEED);
-    font-family: 'Manrope', sans-serif;
-    color: white;
-    padding: 10px;
-    border-radius: 50px;
-}
-
-a[class="bouton2"]:hover{
-    box-shadow : 4px 4px 2px rgba(0, 0, 0, 0.9);
-}
-/*/////////////////////////////////////////////////////////////////*/
-
-.intro-apropos{
-    border-right : 1px #8e86b5 solid;
-    border-bottom : 1px #8e86b5 solid;
-    margin-left:250px;
-    margin-right:250px;
-    text-align: left;
-    padding:50px
-
-}
-
-.intro-apropos h2{
-    color: white;
-}
-/*/////////////////////////////////////////////////////////////////*/
-.soldes{
-    text-decoration: line-through;
-}
-/*/////////////////////////////////////////////////////////////////*/
-.logos-reseaux  {
-    padding-left: 1011px;
-}
-/*/////////////////////////////////////////////////////////////////*/
-.grid-paysages img,
-.grid-portraits img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.grid-paysages{
-    display:grid;
-    grid-template-rows: 300px 300px;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:15px;
-}
-
-.grid-portraits{
-    display:grid;
-    grid-template : 300px 300px / 1fr 1fr 1fr;
-    gap:15px;
-}
-
+/* index.html*/ 
 
 .Portfolio{
-    gap:20px;
-    background: white;
-    text-align: center;
- }
+    background-color: white;
+}
 
-
-
-/*/////////////////////////////////////////////////////////////////*/
-.conteneur-lien-nav{
+.introRobbie{
     display: flex;
     flex-direction: row;
-    align-items:center;
-    gap: 875px;
-    color: #1F2039;
-}
-
-.liens-navigation{
-    display: flex;
-    gap:20px
-}
-/*/////////////////////////////////////////////////////////////////*/
-
-.conteneur-intro-robbie{
-    display: flex;
-   flex-direction:row;
-   padding: 100px;
-   margin: auto;
-   width : 75%;
-   gap: 75px;
-}
-
-.titre-txt-intro{
-    display: flex;
-    flex-direction: column;
-    gap:50px;
-    text-align: justify;    
-
-}
-
-.intro-robbie{
-    display: flex;
-    flex-direction: column;
-    gap:70px;
-
-}
-
-
-.intro-robbie a[class="bouton"]{
-    display: flex;
-    width: 35%;
-    height: 15%;
-    margin:10px;
-    position: relative;
-    left: 150px;
-}
-
-.conteneur-intro-robbie h1{
-    display: flex;
-    text-align: justify;
-    
-}
-/*/////////////////////////////////////////////////////////////////*/
-
-
-.carte-de-visite h2{
-    text-align: center;
-    color: white;
-
-}
-
-.carte{
-    display : inline-block;
-width: 500px;
-height: 300px;;
-}
-
-.txt-carte-de-visite{
-    display: flex;
-    text-align: center;}
-
-
-.lien-carte{
-    position : relative
-}
-
-
-.cliquez-pour-telecharger{
-    display : flex;
-    justify-content: center;
-    align-items:center;
-    position:absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    color: white;
-    font-size: 1em;
-    font-style: italic;
-    background-color: rgba(0, 0, 0, 0.5);
-    display:none;
-}
-
-.lien-carte:hover .cliquez-pour-telecharger{
-    display:flex;
-
-}
-
-.coordonees
-/*/////////////////////////////////////////////////////////////////*/
-.lien-voir-cette-image{
-    position:relative
-}
-
-.voir-cette-image{
-    display: flex;
+    justify-content: space-around;
     align-items: center;
+    padding: 75px;
+
+    width: auto;
+    margin: auto;
+}
+
+.introRobbie h1{
+    font-size: 3.5em;
+    text-align: left;
+}
+
+.coordonees{
+    display: flex;
+    flex: row;
+    gap: 50px;
+
+}
+
+#resumeprojet{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    position: absolute;
-    top: 0px;
-    bottom : 0px;
-    left: 0px;
-    right: 0px;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+}
+
+
+/*a propos*/
+
+.introAPropos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.introAPropos p {
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
     font-size: 1.1em;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.services ul{
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    font-size: 1.1em;
+}
+
+
+.carte-de-visite{
+margin: auto;
+padding-top: 100px;
+}
+
+.carte-de-visite img{
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.soldes{
+    text-decoration:line-through;
+}
+
+.btn{
+    border-radius: 30px;
+    border: none;
+    background-color:#8e86b5 ;
     color: white;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 1;
-    display:none;
+    padding: 15px;
 }
-
-.lien-voir-cette-image:hover .voir-cette-image{
-    display: flex
-}
-
-
-
-
-
-/*MEDIA QUERIES////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-@media screen and  (max-width: 996px){
-    header nav{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-    
-      header nav img {
-        margin-bottom: 20px;
-      }
-    
-      header,
-      footer {
-        padding: 20px 20px;
-      }
-    
-      h1 {
-        font-size: 2em;
-      }
-    
-      section {
-        padding: 50px 20px 50px 20px;
-      }
-    
-      nav a {
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-
-      
-    
-}
-  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

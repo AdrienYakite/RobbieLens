@@ -1,141 +1,161 @@
 <!DOCTYPE html>
     <html lang="fr">
-
         <head> 
             <meta charset=utf-8>
-            <title id="ancre-accueil">Portfolio - Robbie Lens Photographie</title>
+            <title id="ancre-accueil">Accueil – Robbie Lens Photographie</title>
             <link rel="stylesheet" href="style.css"/> 
-            
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
-            <!--importation : Manrope + Montserrat(google fonts)-->
 
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--importation : Manrope + Montserrat(google fonts)-->
 
+            <script src="files.js" defer></script>
+            
         </head>
-
+        
         <body>
             <header>
-                <nav class="conteneur-lien-nav">
-                        <a href="Accueil - Robbie Lens Photographie.html" class="logo_robbie_lens">
-                            <img src="images/logo.png"alt="logo_robbie_lens">
+                <nav>
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo_robbie_lens">
                         </a>
-                    <div>
-                        &emsp;&emsp;<a href="Accueil - Robbie Lens Photographie.html">Accueil</a>
-                        &emsp;<a href="Portfolio.html">Portfolio</a>
-                        &emsp;<a href="A propos - Robbie Lens Photographie.html">À propos</a>
 
-                        <!--Mise en pratique :l'ancre est plus bas que le lien d'ancrage-->
-                    </div>
+                    <span>
+                        <a href="index.html">Accueil&emsp;</a>
+                        <a href="Portfolio.html">Portfolio&emsp;</a>
+                        <a href="A propos - Robbie Lens Photographie.html">À propos&emsp;</a>
+                               <!--Mise en pratique :l'ancre est plus bas que le lien d'ancrage-->
+                    </span>
                 </nav>
             </header>   
-            </header>
 
             <main>
+                <section class="introRobbie">
 
-               <section>
-                    <h1 id="ancre-portfolio">Portfolio</h1>
-                    <!--Mise en pratique :l'ancre est plus bas que le lien d'ancrage-->
+                   <div>
+                        <h1>Robbie Lens
+                        <br>Photographie</h1>
+                    
+                        <div class="intro-robbie">
+                            <p>
+                                Où <em>professionnalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5 ans 
+                                <br>maintenant, j’exerce mon métier avec la passion 
+                                qui m’anime : 
+                                <br>
+                                Capturer l’essence de chaque instant.
+                            </p>    
+
+                            <a href="#ancre-projet"class="btn">UN PROJET ?  ÉCRIVEZ-MOI ✍️​</a>
+
+                        </div>
+
+                    </div>
+
+                    <img src="images/robbie-lens.png" alt="Portrait robbie-lens">
+                
                 </section>
+
+                
 
                 <section class="Portfolio">
+                    <h2>Mon dernier projet</h2>
+                    <div class="grid-portraits ">
 
-                    <h2>Paysages</h2>
-                    
-                <div class="grid-paysages">
+                            <a href="images/fumeur.jpg" class="lien-voir-cette-image"> 
+                                <img src="images/fumeur.jpg"alt="fumeur"title="Cliquez pour agrandir" />
+                                <div class="voir-cette-image">Voir la photo</div>
+                            </a>
+                            
+                            <!--Mise en pratique : insertion d'images présentes dans le même dossier + TEXTE BULLE + MINIATURE et aggrandisssement
+                            -->
+                            <a href="images/portrait-femme1.png" class="lien-voir-cette-image">
+                                <img src="images/portrait-femme1.png" alt="jsp"title="Cliquez pour agrandir"/>
+                                <div class="voir-cette-image">Voir la photo</div>
 
-                    <a href="images/element-1.png"class="lien-voir-cette-image">
-                        <img src="images/element-1.png "alt="jsp"title="Cliquez pour agrandir"/>
-                        <div class="voir-cette-image">Voir la photo</div>
-                    </a>
+                            </a>
+    
+                            <a href="images/portrait-pleurs.png"class="lien-voir-cette-image">
+                                <img src="images/portrait-pleurs.png"alt="jsp"title="Cliquez pour agrandir">
+                                <div class="voir-cette-image">Voir la photo</div>
+                            </a>
+    
+                            <a href="images/fumeur2.png" class="lien-voir-cette-image">
+                                <img src="images/fumeur2.png"alt="Geyser"title="Cliquez pour agrandir" />
+                                <div class="voir-cette-image">Voir la photo</div>
+                            </a>
                         
-                        <!--Mise en pratique : insertion d'images présentes dans le même dossier + TEXTE BULLE + MINIATURE et aggrandisssement
-                        -->
-                    
-                    <a href="images/element_4.png"class="lien-voir-cette-image">
-                        <img src="images/element_4.png "alt="jsp"title="Cliquez pour agrandir"/>
-                        <div class="voir-cette-image">Voir la photo</div>
-                    </a>
-
-                        <a href="images/sahara.jpg"class="lien-voir-cette-image">
-                            <img src="images/sahara.jpg "alt="jsp"title="Cliquez pour agrandir"/>
-                            <div class="voir-cette-image">Voir la photo</div>
-                        </a>
-
-                    <a href="images/geyser.png"class="lien-voir-cette-image">
-                        <img src="images/geyser.png"alt="Geyser"title="Cliquez pour agrandir" />
-                        <div class="voir-cette-image">Voir la photo</div>
-                    </a>
-                    
-                    <a href="images/italie_mer.jpg"class="lien-voir-cette-image">
-                        <img src="images/italie_mer.jpg"alt="fumeur"title="Cliquez pour agrandir" />
-                        <div class="voir-cette-image">Voir la photo</div>
-                    </a>
-
-                    <a href="images/paysage4.jpg"class="lien-voir-cette-image">
-                        <img src="images/paysage4.jpg"alt="Lac"title="Cliquez pour agrandir" />
-                        <div class="voir-cette-image">Voir la photo</div>
-                    </a>
-
-                </div>
-                    <!--Mise en pratique : insertion d'images provenant du web + TEXTE BULLE-->
-
-                    <h2>Portraits</h2>
-                    
-                <div class="grid-portraits ">
-
-                        <a href="images/fumeur.jpg"class="lien-voir-cette-image"> 
-                            <img src="images/fumeur.jpg"alt="fumeur"title="Cliquez pour agrandir" />
-                            <div class="voir-cette-image">Voir la photo</div>
-                        </a>
+                            
+                            <a href="images/guerrier-massai.png"class="lien-voir-cette-image"> 
+                                <img src="images/guerrier-massai.png"alt="jE SAIS PLUS"title="Cliquez pour agrandir" />
+                                <div class="voir-cette-image">Voir la photo</div>
+                            </a>
+    
+                            
+                            <a href="https://wallpapers.com/images/hd/nba-youngboy-pictures-nala5e6zj64zjtpm.jpg" class="lien-voir-cette-image">
+                                <img src="https://wallpapers.com/images/hd/nba-youngboy-pictures-nala5e6zj64zjtpm.jpg"alt="Lac"title="Cliquez pour agrandir" />
+                                <div class="voir-cette-image">Voir la photo</div>
+                            </a>
                         
-                        <!--Mise en pratique : insertion d'images présentes dans le même dossier + TEXTE BULLE + MINIATURE et aggrandisssement
-                        -->
-                        <a href="images/portrait-femme1.png"class="lien-voir-cette-image">
-                            <img src="images/portrait-femme1.png" alt="jsp"title="Cliquez pour agrandir"/>
-                            <div class="voir-cette-image">Voir la photo</div>
-                        </a>
+                    </div>
+                    <br><br><h4><a href="Portfolio.html"target="_blank"class="bouton2">Voir portfolio</a></h4>
 
-                        <a href="images/portrait-pleurs.png"class="lien-voir-cette-image">
-                            <img src="images/portrait-pleurs.png"alt="jsp"title="Cliquez pour agrandir" />
-                            <div class="voir-cette-image">Voir la photo</div>
-                        </a>
-
-                        <a href="images/fumeur2.png"class="lien-voir-cette-image">
-                            <img src="images/fumeur2.png"alt="Geyser"title="Cliquez pour agrandir" />
-                            <div class="voir-cette-image">Voir la photo</div>
-                        </a>
-                    
-                        <a href="images/guerrier-massai.png"class="lien-voir-cette-image"> 
-                            <img src="images/guerrier-massai.png"alt="jE SAIS PLUS"title="Cliquez pour agrandir" />
-                            <div class="voir-cette-image">Voir cette image</div>
-                        </a>
-
-                        <a href="images/860_e-bjswxwyamqscv-1.jpg"class="lien-voir-cette-image">
-                            <img src="images/860_e-bjswxwyamqscv-1.jpg"alt="Lac"title="Cliquez pour agrandir" />
-                            <div class="voir-cette-image">Voir cette image</div>
-                        </a>                    
-                </div>
                 </section>
+                
+                <section class="formContact">
+                    <h2 id="ancre-projet">Parlons de votre projet</h2>
+                    <form action="" method="get">
+                        <div class="coordonees">
+
+                            <div>
+                                <label for="nom">Votre nom </label>
+                                    <input type="text" name="nom" id="nom" placeholder="Ex : Yakité" size="38" >
+                            </div>
+
+                            <div>
+                                <label for="adressemail">Votre email </label>
+                                    <input type="email" name="adressemail" id="adressemail"placeholder="Ex : adrien.yakite@gmail.com" size="38">
+                            </div>  
+
+                        </div>
+
+                        <div>
+                                <label for="resumeprojet">Votre message</label>
+                                    <textarea name="resumeprojet" id="resumeprojet" placeholder="Ex : Bonjour Robbie, voici un projet dont j'aimerai vous parler..." required rows="10"></textarea>
+                        </div>
+
+                        <input type="submit" value="Envoyer" class="btn" id="btnEnvoi">
+
+
+                    </form>
+                </section>
+
+                
+
             </main>
 
             <footer>
-                <a href="Accueil - Robbie Lens Photographie.html">
-                    <img src="images/logo.png"alt="logo_robbie_lens">
-                </a>
-                <span class="logos-reseaux">
-                    <a href="https://twitter.com/RedSmash0"target="_blank">
-                        <img src="images/icons8-twitter-48.png"alt="logo twitter"title="@Robbie_Lens">
+                    <a href="index.html">
+                        <img src="images/logo.png"alt="logo_robbie_lens">
                     </a>
-                    <a href="https://www.instagram.com/afric_un/"target="_blank"> 
-                        <img src="images/icons8-instagram-48.png"alt="logo instagram"title="@Robbie_Lens">             
-                    </a>
-                    <a href="https://www.linkedin.com/in/adrien-yakite-ba0730135/"target="_blank"> 
-                        <img src="images/logo_linkedin.png"alt="logo Linkedin"title="@Robbie_Lens">             
-                    </a>
-                </span>
+                    <span class="logos-reseaux">
+                        <a href="https://twitter.com/RedSmash0"target="_blank">
+                            <img src="images/icons8-twitter-48.png"alt="logo twitter"title="@Robbie_Lens">
+                        </a>
+                        <a href="https://www.instagram.com/afric_un/"target="_blank"> 
+                            <img src="images/icons8-instagram-48.png"alt="logo instagram"title="@Robbie_Lens">             
+                        </a>
+                        <a href="https://www.linkedin.com/in/adrien-yakite-ba0730135/"target="_blank"> 
+                            <img src="images/logo_linkedin.png"alt="logo Linkedin"title="@Robbie_Lens">             
+                        </a>
+                    </span>
             </footer>
+            
         </body>
-    </html>
+           
+    
 
+
+
+    </html>      
