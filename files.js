@@ -6,7 +6,7 @@ let inputNom = document.querySelector("#nom");
 btnEnvoi.addEventListener("submit", (event)=>{
     event.preventDefault();
 
-    console.log("bouton cliqué !")
+    console.log("bouton cliqué !");
 
     let nomUser = inputNom.value;
     sectionForm.innerHTML=``;
