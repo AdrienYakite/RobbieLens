@@ -62,48 +62,41 @@ p{
 }
 
 form{
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+  margin: 150px;
 
-    margin:auto;
-    width: 500px;
 
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px; 
+
+
 }
-
-
 
 input[type="text"]{
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
-
-    height: 30px;
-    border: white 1px solid;
-    border-radius: 5px;
+    border: none;
+    border-radius: 7.5px;
+    height: 40px;
+    width: 200px;
 }
 
-input[type="email"]{
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
 
-    height: 30px;
-    border: white 1px solid;
-    border-radius: 5px;
+input[type="email"]{
+    border: none;
+    border-radius: 7.5px;
+    height: 40px;
+    width: 200px;
 }
 
 textarea{
-    height: 100px;
-    border: white 1px solid;
-    border-radius: 5px;
+    border: none;
+    border-radius: 7.5px;
+    height: 200px;
 }
+
+
+
 
 
 
@@ -131,6 +124,12 @@ span{
 
 /* index.html*/ 
 
+.classeTemporaireForm{
+    padding: 200px;
+    text-align: center;
+    font-size: 2em;
+
+}
 .Portfolio{
     background-color: white;
     color: black;
@@ -143,7 +142,7 @@ span{
 
 
 .voir-cette-image{
-    position: absolute;
+    /*position: absolute;
     top: 0px;
     bottom : 0px;
     left: 0px;
@@ -154,13 +153,13 @@ span{
     border: red 3px solid;
     font-size: 1.5em;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);*/
     display: none;
 }
 
-.Portfolio a:hover .voir-cette-image{
+/*.Portfolio a:hover .voir-cette-image{
     display: flex;
-}
+}*/
 
 .introRobbie{
     display: flex;
@@ -215,6 +214,12 @@ span{
     height: 100%;
     object-fit: cover;
 }
+
+.nomEtPrenom{
+    display: flex;  
+    flex-direction: row; 
+    gap:220px
+}   
 
 
 
@@ -319,7 +324,6 @@ padding-top: 100px;
     text-decoration: underline;
 
 }
-
 
 
 
